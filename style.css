@@ -1,0 +1,100 @@
+body{
+    background: #EBEBEB;
+    font-family: 'Slabo 27px', serif;
+    color:  #7d7d7d;
+    line-height: 1.6em;
+    font-size: 11px;
+}
+
+h1, h2, h3 {
+  font-family: 'Slabo 27px', serif;
+  line-height: 1em;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+a {
+  color: turquoise;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 30px auto; /* This automatically sets left/right margins */
+}
+
+.card {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.inline li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.inline li i{
+  font-size: 25px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.inline {
+padding-left: 0;
+}
+
+#avatar {
+  border-radius: 50%;
+  border: 2px solid grey;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.2)
+}
+
+.btn-red {
+    background-color: #B266FF;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+.btn-red:hover {
+  background-color:#C29AFF;
+  color: white;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
